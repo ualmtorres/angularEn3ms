@@ -2,4 +2,7 @@
 <p>Edad: {{age}}</p>
 <p>Email: {{email}}</p>
 <p>Dirección: {{address.street}}. {{address.city}}, {{address.state}}</p>
-
+<h2>Hobbies</h2>
+<ul>
+    <li *ngFor="let hobby of hobbies">{{hobby}}</li>
+</ul>
